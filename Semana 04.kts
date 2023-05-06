@@ -1,4 +1,6 @@
-fun soma (a: Int, b: Int) = a + b
+fun soma (a: Int, b: Int){
+    return (a + b)
+}
 
 fun main (){
     var resultado1 = soma(5,5)
@@ -50,7 +52,7 @@ fun filtrarStrings(array: Array<String>): List<String> {
 
 fun main(){
 
-    val array = arrayOf("Fla", "CRF", "Gabriel", "Arrascaeta", "Bruno Henrique")
+    val array = arrayOf("Vasco", "CRVG", "Melhor", "Time", "do Mundo")
     val resultado5 = filtrarStrings(array)
     println(resultado5)
 
